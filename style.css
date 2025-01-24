@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 80px;
+    width: 100%;
+
+}
+
+.hover:hover {
+    background-color: unset;
+}
+
+.pro {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.Learning {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.product-conteiner {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.Log {
+    display: flex;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+
+.Sign {
+    display: flex;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 8px;
+    background: #7F56D9;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.big-div {
+    background: #53389E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 96px;
+    align-self: stretch;
+}
+
+.Banking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    align-self: stretch;
+}
+
+
+.back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    
+}
+
+.that {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.Super {
+    color: #E9D7FE;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.has {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 72px;
+     max-width: 728px;
+        width: 100%;
+}
+
+.fees {
+    color: #E9D7FE;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+}
+
+.play-button {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+.burgar{
+    display: none;
+}
+
+.play {
+    display: flex;
+    padding: 16px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    background: #FFF;
+    color: #414651;
+    border: none;
+    font-family: Inter;
+    font-size: 18px;
+}
+
+.ip {
+    display: flex;
+    padding: 16px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    background: #7F56D9;
+    color: #FFF;
+    border: none;
+    font-family: Inter;
+    font-size: 18px;
+}
+
+.bank-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+    padding: 0px 32px 0px 32px;
+   
+    width: 100%;
+}
+.dd {
+    width: 100%;
+}

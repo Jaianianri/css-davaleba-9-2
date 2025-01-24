@@ -1,0 +1,12 @@
+@media screen and  (max-width: 1023px) {
+    .product-conteiner {
+        display: none;
+
+    }
+    .button-container {
+        display: none;
+    }
+    .burgar{
+        display: flex;
+    }
+}
