@@ -1,12 +1,52 @@
-@media screen and  (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .product-conteiner {
         display: none;
 
     }
+    header {
+        
+        width: 100%;
+    }
+    nav {
+       
+        width: 100%;
+    }
+
     .button-container {
         display: none;
     }
-    .burgar{
+
+    .burgar {
         display: flex;
     }
+
+    .plans-contant {
+        display: flex;
+       
+        flex-direction: column;
+    
+    }
+    .resources-container {
+        flex-direction: column;
+    }
+    .footer-vontainer1 {
+        flex-direction: column;
+        gap: 32px;
+        padding: 0px 32px;
+    }
+    .love-container  {
+        flex-direction: column;
+       
+        
+    }
+    .woman {
+        border-radius: 0 0 24px 24px;
+        width: 100%;
+    }
+    .finance-container {
+      max-width: 728px;
+      width: 100%;
+    }
+
+    
 }

@@ -13,6 +13,9 @@ header {
     max-width: 1280px;
 
 }
+nav {
+    width: 100%;
+}
 
 .hover:hover {
     background-color: unset;
@@ -190,15 +193,17 @@ header {
     align-items: center;
     gap: 48px;
     align-self: stretch;
-    padding: 0px 32px 0px 32px;
-
     width: 100%;
 }
 
-
-.dd {
+.div-carde {
+    background-image: url(./Cards\ \(1\).png);
+    height: 456px;
+    max-width: 1280px;
     width: 100%;
+    background-position: center;
 }
+
 
 .big-container {
     display: flex;
@@ -338,6 +343,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    width: 100%;
 }
 
 .feature {
@@ -367,6 +373,9 @@ main {
 .ll {
     display: flex;
     justify-content: center;
+    background-image: url('Modern screen mockup.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 
 .fd {
@@ -445,7 +454,7 @@ main {
     align-content: flex-start;
     gap: 64px 64px;
     align-self: stretch;
-    flex-wrap: wrap;
+  
     justify-content: center;
 }
 
@@ -560,18 +569,274 @@ main {
 
     background: #FAFAFA;
 }
+
 .startedd {
     display: flex;
-padding: var(--spacing-lg, 12px) 18px;
-justify-content: center;
-align-items: center;
-gap: var(--spacing-sm, 6px);
-align-self: stretch;
-border-radius: var(--radius-md, 8px);
-background: #7F56D9;
-border: none;
-color: #FFF;
+    padding: var(--spacing-lg, 12px) 18px;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-sm, 6px);
+    align-self: stretch;
+    border-radius: var(--radius-md, 8px);
+    background: #7F56D9;
+    border: none;
+    color: #FFF;
 
-font-family: Inter;
-font-size: 16px;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.biglove {
+    display: flex;
+    justify-content: center;
+}
+
+.love-container {
+    display: flex;
+    align-items: center;
+    border-radius: var(--radius-4xl, 24px);
+    background: #53389E;
+    max-width: 1288px;
+    justify-content: space-between;
+    width: 100%;
+    /* background-image: url(./Image\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: right; */
+
+}
+.woman {
+    border-radius:   0 24px 24px 0;
+}
+
+.love-box {
+    display: flex;
+    padding: 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+
+}
+
+.love-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-4xl, 32px);
+    align-self: stretch;
+    max-width: 608px;
+    width: 100%;
+}
+
+.div-love {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-3xl, 24px);
+    align-self: stretch;
+}
+
+.love {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+}
+
+.Wells {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-xs, 4px);
+    align-self: stretch;
+}
+
+.Wells {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 18px;
+}
+
+.Quotient {
+    color: #E9D7FE;
+
+    font-family: Inter;
+    font-size: 16px;
+
+}
+
+footer {
+    display: flex;
+    padding: 64px 0px 48px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-7xl, 64px);
+    align-self: stretch;
+    background: #FAFAFA;
+    margin-top: 24px;
+
+}
+
+.footer-footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    row-gap: 48px;
+    align-self: stretch;
+    flex-wrap: wrap;
+
+}
+
+.footer-vontainer1 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+
+
+}
+
+.untitled-div {
+    max-width: 320px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.resources-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.resources-box {
+    display: flex;
+    max-width: 320px;
+    width: 100%;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.resources-div {
+    display: flex;
+    min-width: 96px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.resourcess {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.Prod {
+    color: #181D27;
+
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.email-container {
+    display: flex;
+    max-width: 360px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-xl, 16px);
+}
+
+.Stayy {
+    color: #181D27;
+
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.date-div {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.input-divv {
+    display: flex;
+    padding: 10px 14px;
+    align-items: center;
+    gap: var(--spacing-md, 8px);
+    align-self: stretch;
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid #7F56D9;
+    background: #FFF;
+    box-shadow: 4px 4px 20.9px 0px rgba(127, 86, 217, 0.25);
+
+    color: #717680;
+
+
+    font-size: 16px;
+}
+
+.Subscribe-button {
+    display: flex;
+    padding: 10px var(--spacing-xl, 16px);
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-sm, 6px);
+    border-radius: var(--radius-md, 8px);
+    background: #7F56D9;
+    color: #FFF;
+    border: none;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.bigfooter {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    row-gap: 48px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.footer-container2 {
+    display: flex;
+    padding-top: var(--spacing-4xl, 32px);
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    row-gap: 24px;
+    align-self: stretch;
+    flex-wrap: wrap;
+    border-top: 1px solid #E9EAEB;
+    max-width: 1288px;
+    width: 100%;
+    padding: 0px 32px;
+}
+
+.Cookiess {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    color: #717680;
+
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.ghts {
+    color: #717680;
+
+    font-family: Inter;
+    font-size: 16px;
 }
