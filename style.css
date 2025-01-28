@@ -375,7 +375,9 @@ main {
     justify-content: center;
     background-image: url('Modern screen mockup.svg');
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: bottom right;
+    height: 810px;
+   
 }
 
 .fd {
@@ -528,7 +530,6 @@ main {
 
 .Bil {
     color: #535862;
-
     text-align: center;
     font-family: Inter;
     font-size: 16px;
@@ -563,10 +564,9 @@ main {
     padding: var(--spacing-4xl, 32px);
     flex-direction: column;
     align-items: flex-start;
-    gap: var(--spacing-3xl, 24px);
+    gap:  24px;
     align-self: stretch;
     border-top: 1px solid #E9EAEB;
-
     background: #FAFAFA;
 }
 
@@ -581,16 +581,13 @@ main {
     background: #7F56D9;
     border: none;
     color: #FFF;
-
     font-family: Inter;
     font-size: 16px;
 }
-
 .biglove {
     display: flex;
     justify-content: center;
 }
-
 .love-container {
     display: flex;
     align-items: center;
@@ -599,15 +596,10 @@ main {
     max-width: 1288px;
     justify-content: space-between;
     width: 100%;
-    /* background-image: url(./Image\ \(2\).png);
-    background-repeat: no-repeat;
-    background-position: right; */
-
 }
 .woman {
     border-radius:   0 24px 24px 0;
 }
-
 .love-box {
     display: flex;
     padding: 64px;
@@ -615,14 +607,13 @@ main {
     justify-content: center;
     align-items: flex-start;
     gap: 40px;
-
 }
 
 .love-div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: var(--spacing-4xl, 32px);
+    gap: 32px;
     align-self: stretch;
     max-width: 608px;
     width: 100%;
@@ -632,13 +623,12 @@ main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: var(--spacing-3xl, 24px);
+    gap:  24px;
     align-self: stretch;
 }
 
 .love {
     color: #FFF;
-
     font-family: Inter;
     font-size: 36px;
     font-style: normal;
