@@ -396,6 +396,9 @@ main {
     display: flex;
     flex-direction: column;
 }
+.mockup-div {
+    width: 100%;
+}
 
 .everyonediv {
     display: flex;
