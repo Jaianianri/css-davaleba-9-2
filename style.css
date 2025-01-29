@@ -373,10 +373,7 @@ main {
 .ll {
     display: flex;
     justify-content: center;
-    background-image: url('Modern screen mockup.svg');
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    height: 810px;
+   
    
 }
 
@@ -470,7 +467,6 @@ main {
 
 .card-container {
     display: flex;
-    min-width: 640px;
     justify-content: center;
     align-items: flex-start;
     gap: 32px;

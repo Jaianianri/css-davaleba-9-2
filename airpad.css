@@ -47,6 +47,10 @@
       max-width: 728px;
       width: 100%;
     }
+    .foto-container {
+        flex-direction: column;
+        width: 100%;
+    }
 
     
 }
